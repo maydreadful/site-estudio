@@ -1,0 +1,5 @@
+/* Custom font for a more artistic feel, if desired. Otherwise, Tailwind's default Inter is used. */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
