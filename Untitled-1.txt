@@ -1,0 +1,17 @@
+kin-tattoo/
+├── public/
+│   └── img/               # Mantenha suas imagens aqui
+├── src/
+│   ├── components/        # Peças que se repetem (Navbar, Footer, etc.)
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── WhatsAppButton.jsx
+│   │   └── ServiceCard.jsx
+│   ├── pages/             # Seções que representam uma página inteira
+│   │   ├── Home.jsx       # Conteúdo do seu index.html
+│   │   └── Gallery.jsx    # Conteúdo do seu galeria.html
+│   ├── App.jsx            # Configurador de rotas
+│   ├── main.jsx           # Ponto de entrada do React
+│   └── index.css          # Estilos globais e Tailwind
+├── tailwind.config.js
+└── package.json
